@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação+Console</title>
+</head>
+<body>
+    <p>Clique no botão para exibir a caixa de confirmação.</p>
+    <input type="button" value="Clique aqui para exibir o texto" onclick="confirmar()">
+    <p id="resultado"></p>
+
+    <script>
+        function confirmar() {
+            var x
+            var r = confirm("Escola um valor?")
+            if(r == true) {
+                x = "Voce pressionou OK!"
+            }
+            else {
+                x = "Voce pressionou Cancelar!"
+            }
+            document.getElementById("resultado").innerHTML = x
+            console.log(x)
+        }
+    </script>
+</body>
+</html>
