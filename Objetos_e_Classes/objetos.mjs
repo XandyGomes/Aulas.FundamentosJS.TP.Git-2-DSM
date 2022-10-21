@@ -46,4 +46,3 @@ console.log(`Área de um triângulo de 10x26: ${calculaArea(forma2)}`)
 console.log(`Área de uma elipse de 20x10: ${calculaArea(forma3)}`)
 console.log(`Área de ${JSON.stringify(forma4)}: ${calculaArea(forma4)}`)
 console.log(`Área de ${JSON.stringify(forma5)}: ${calculaArea(forma5)}`)
-
